@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(3, 206, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerWrapper{
+    width: 100%;
+    background-color: rgb(3, 206, 228);
+
+
+}
+
+.titleimage{
+    padding: 25px;
+    position: relative;
+    margin: auto;
+    width: 328px;
+}
+
+.headerMiddle .button{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.headerMiddle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.button{
+    
+    display: inline-block;
+    vertical-align: middle; 
+    width: 200px;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+    color: rgb(22, 22, 22);
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.button:hover{
+    transition: all 0.3s ease;
+    background-color: rgb(3, 206, 228);
+    border: 1px solid white;
+    color: white;
+}
+
+.maincontent{
+    background-color:white;
+    position: relative;
+    width: 1000px;
+    margin: auto
+}
+
+.titlediv{
+    margin-top: 0px;
+    padding: 10px;
+    background-color: rgb(3, 206, 228);
+    text-align: center;
+
+}
+
+.insidecontent{
+    padding: 15px;
+    font-size: 16pt;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4)
+}
