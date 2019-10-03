@@ -1,3 +1,6 @@
+#aboutbtn{
+    color: rgb(3, 206, 228);
+}
 .insidecontent {
     overflow: hidden;
     padding-top: 50px;
@@ -47,8 +50,30 @@
 
 .memberkeywords {
     margin: 10px 0;
+    padding-left: 10px;
+    list-style-type: none;
 }
 
+.memberli::before{
+     content:"- ";
+}
+
+.memberlinks{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.memberlinks a{
+    text-decoration: none;
+    color: white;
+}
+
+<<<<<<< HEAD
+.memberlinks li:hover, .memberlinks a:hover{
+    color: rgb(3, 206, 228);
+}
+=======
 @media (max-width: 1000px) {
     .righttm {
         float: left;
@@ -65,3 +90,4 @@
         padding-left: 15px;
     }
 }
+>>>>>>> 8ed43a49dce7a7411d43fe61230005f9be9dd614
