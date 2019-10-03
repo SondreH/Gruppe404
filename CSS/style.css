@@ -2,8 +2,9 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0;
-    transition: opacity .5s;
-    background-color: black;
+    /*transition: opacity .5s;*/
+    transition: all 0.5s ease;
+    background-color: #333333;
 }
 .background{
     position: absolute;
