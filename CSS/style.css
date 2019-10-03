@@ -87,3 +87,9 @@ body{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     background-color: rgba(0, 0, 0, 0.4)
 }
+
+@media (max-width: 480px) {
+    .maincontent {
+        width: 100%;
+    }
+}
