@@ -121,6 +121,7 @@ body{
     .button {
         width: 33.333%;
         float: left;
+        margin-top: 50px;
         margin-left: 0;
         margin-right: 0;
         padding-left: 0;
