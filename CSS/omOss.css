@@ -1,3 +1,6 @@
+#aboutbtn{
+    color: rgb(3, 206, 228);
+}
 .insidecontent {
     overflow: hidden;
     padding-top: 50px;
@@ -47,4 +50,25 @@
 
 .memberkeywords {
     margin: 10px 0;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.memberli::before{
+     content:"- ";
+}
+
+.memberlinks{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.memberlinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.memberlinks li:hover, .memberlinks a:hover{
+    color: rgb(3, 206, 228);
 }
