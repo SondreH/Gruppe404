@@ -4,18 +4,36 @@
   <title>Gruppe404 - Velkommen</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="CSS/style.css"/>
+        <link rel="stylesheet" href="CSS/index.css"/>
+        <script>
+var speed = 'slow';
+
+$('html, body').hide();
+
+$(document).ready(function() {
+    $('html, body').fadeIn(speed, function() {
+        $('a[href], button[href]').click(function(event) {
+            var url = $(this).attr('href');
+            if (url.indexOf('#') == 0 || url.indexOf('javascript:') == 0) return;
+            event.preventDefault();
+            $('html, body').fadeOut(speed, function() {
+                window.location = url;
+            });
+        });
+    });
+});
+</script>
 </head>
-<body> 
+<body>
   <div class="headerWrapper">
     <div class="titleimage">
       <img src="logo404.png">
     </div>
     <div class="headerMiddle">
       <a class="button" id="homebtn" href="/" title="Hjem">Hjem</a>
-      <a class="button" id="aboutbtn" href="/om-oss" title="Om oss">Om oss</a>
-      <a class="button" id="contactbtn" href="/kontakt" title="Kontakt">Kontakt</a>
+      <a class="button" id="aboutbtn" href="omOss.html" title="Om oss">Om oss</a>
+      <a class="button" id="contactbtn" href="kontaktOss.html" title="Kontakt">Kontakt</a>
     </div>
   </div>
   <div class="maincontent">
