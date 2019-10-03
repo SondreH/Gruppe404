@@ -1,14 +1,20 @@
 body{
     margin: 0px;
-    background-color: rgb(3, 206, 228);
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.headerWrapper{
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    background-color: rgb(3, 206, 228);
-
-
+    height: 100%;
+}
+.headerWrapper{
+    position: relative;
+    width: 100%;
 }
 
 .titleimage{
@@ -27,42 +33,40 @@ body{
 .headerMiddle{
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 100px;
     width: 100%;
     margin: auto;
-    background-color: white;
     text-align: center;
     white-space: nowrap;
 
 }
 
-.button{
+.button, #logo{
 
     display: inline-block;
     vertical-align: middle;
-    width: 200px;
+    width: 150px;
     padding: 10px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 10px;
-    color: rgb(22, 22, 22);
-    border: 1px solid black;
+    color: rgb(255, 255, 255);
+   
     text-decoration: none;
     font-size: 18pt;
     font-weight: 500;
     text-transform: uppercase;
 
 }
+.button{
+
+}
 
 .button:hover{
     transition: all 0.3s ease;
-    background-color: rgb(3, 206, 228);
-    border: 1px solid white;
-    color: white;
+    color: rgb(3, 206, 228);
 }
 
 .maincontent{
-    background-color:white;
     position: relative;
     width: 1000px;
     margin: auto
@@ -71,14 +75,15 @@ body{
 .titlediv{
     margin-top: 0px;
     padding: 10px;
-    background-color: rgb(3, 206, 228);
     text-align: center;
     color: white;
 
 }
 
 .insidecontent{
+    color: white;
     padding: 15px;
     font-size: 16pt;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4)
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4)
 }
