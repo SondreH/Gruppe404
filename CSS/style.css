@@ -20,6 +20,7 @@ body{
 .headerWrapper{
     position: relative;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .titleimage{
@@ -44,8 +45,17 @@ body{
     white-space: nowrap;
 
 }
+#logo{
+    position: absolute;
+    top:0;
+    left:0;
+    margin: 15px 25px;
+    color: white;
+    font-size: 25pt;
 
-.button, #logo{
+}
+
+.button{
 
     display: inline-block;
     vertical-align: middle;
@@ -62,6 +72,7 @@ body{
     text-transform: uppercase;
 
 }
+
 .button{
 
 }
