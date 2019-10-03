@@ -1,0 +1,50 @@
+.insidecontent {
+    overflow: hidden;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.teamMember {
+    width: 48%;
+    float: left;
+    border-left: 1px solid rgba(70, 70, 70, 0.8);
+    margin-left: -1px;
+    border-bottom: 1px solid rgba(70, 70, 70, 0.8);
+    overflow: hidden;
+    margin-right: 2%;
+    margin-bottom: 50px;
+}
+
+.memberimg {
+    width: 200px;
+    height: auto;
+    padding-left: 15px;
+}
+
+.lefttm {
+    float: left;
+    width: 50%;
+}
+
+.righttm {
+    float: right;
+    width: 50%;
+}
+
+.membername {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18pt;
+}
+
+.membertext {
+    margin: 10px 0;
+}
+
+.membersubtitle {
+    margin: 10px 0;
+}
+
+.memberkeywords {
+    margin: 10px 0;
+}
