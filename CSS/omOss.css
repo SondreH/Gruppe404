@@ -69,6 +69,25 @@
     color: white;
 }
 
+<<<<<<< HEAD
 .memberlinks li:hover, .memberlinks a:hover{
     color: rgb(3, 206, 228);
 }
+=======
+@media (max-width: 1000px) {
+    .righttm {
+        float: left;
+        width: 100%
+    }
+    .lefttm {
+        width: 100%;
+    }
+    .teamMember {
+        width: 100%;
+        margin-right: 0;
+    }
+    .membertext,.membername,.membersubtitle {
+        padding-left: 15px;
+    }
+}
+>>>>>>> 8ed43a49dce7a7411d43fe61230005f9be9dd614
