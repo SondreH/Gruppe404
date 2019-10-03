@@ -108,8 +108,26 @@ body{
     background-color: rgba(0, 0, 0, 0.4)
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
     .maincontent {
         width: 100%;
+    }
+    #logo {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    .button {
+        width: 33.333%;
+        float: left;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .headerWrapper {
+        height: 120px;
     }
 }
