@@ -42,6 +42,7 @@
 
 .membertext {
     margin: 10px 0;
+    font-size: 14pt;
 }
 
 .membersubtitle {
@@ -69,11 +70,10 @@
     color: white;
 }
 
-<<<<<<< HEAD
 .memberlinks li:hover, .memberlinks a:hover{
-    color: rgb(3, 206, 228);
+    color: rgb(3, 206, 228) !important;
 }
-=======
+
 @media (max-width: 1000px) {
     .righttm {
         float: left;
@@ -90,4 +90,3 @@
         padding-left: 15px;
     }
 }
->>>>>>> 8ed43a49dce7a7411d43fe61230005f9be9dd614
