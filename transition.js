@@ -1,12 +1,10 @@
 window.transitionToPage = function(href) {
-    document.querySelector('body').style.opacity = 0;
-    document.querySelector('.lds-ellipsis').style.display = 'inline-block';
+    document.querySelector('body').style.opacity = 0
     setTimeout(function() {
         window.location.href = href
-    }, 1000);
+    }, 100)
 }
 
-window.addEventListener('load', function(event) {
-    document.querySelector('.lds-ellipsis').style.display = 'none';
-    document.querySelector('body').style.opacity = 1;
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
 })
