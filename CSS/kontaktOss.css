@@ -35,6 +35,11 @@
     margin-left: -37px;
 }
 
+.map {
+    width: 100%;
+    height: 300px;
+}
+
 @media (max-width: 1000px) {
     .righttm {
         float: left;
