@@ -1,0 +1,51 @@
+.insidecontent {
+    overflow: hidden;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lefttm {
+    float: left;
+    width: 50%;
+}
+
+.righttm {
+    float: right;
+    width:50%;
+    position:relative;
+    left: 30px;
+}
+
+.memberlinks{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.memberlinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.memberlinks li:hover, .memberlinks a:hover{
+    color: rgb(3, 206, 228) !important;
+}
+
+.mail {
+    margin-left: -37px;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width: 1000px) {
+    .righttm {
+        float: left;
+        width: 100%
+    }
+    .lefttm {
+        width: 100%;
+    }
+}
